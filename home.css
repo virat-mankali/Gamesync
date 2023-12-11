@@ -1,0 +1,183 @@
+* {
+    margin: 2px;
+    padding: 3px;
+    background-color: rgb(10, 25, 68);
+}
+
+nav {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 2px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.section1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.head {
+    color: rgb(176, 172, 172);
+    text-align: center;
+    font-size: 15px;
+}
+
+.section2 {
+    color: rgb(169, 119, 215);
+    text-align: center;
+    font-size: 45px;
+}
+
+.psection2 {
+    text-align: center;
+    color: rgb(176, 172, 172);
+}
+
+.badmintoncontainer {
+    display: flex;
+    align-items: center;
+}
+
+.badmintonimg {
+    width: 300px;
+    height: auto;
+    margin-left: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aliceblue; 
+    border-radius: 20px;
+}
+
+.badmintontextheading {
+    flex: 1;
+    color: rgb(255, 255, 255);
+    padding-left: 150px;
+    align-items: center;
+    font-size: 45px;
+}
+
+.badmintontextpara {
+    flex: 1;
+    color: rgb(238, 228, 228);
+    padding-left: 170px;
+    font-size: 15px;
+}
+
+.cricketcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.cricketimg {
+    align-items: right;
+    width: 500px;
+    height: auto;
+    margin-right: 100px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+}
+
+.cricketpara {
+    color: rgb(238, 229, 229);
+    margin-left: 200px;
+    padding-right: 100px;
+    font-size: 15px;
+}
+
+.cricketheading {
+    color: white;
+    margin-left: 200px;
+    padding-right: 100px;
+    font-size: 45px;    
+}
+
+.mothamimg {
+    width: 500px;
+    margin-left: 90px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.mothamcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.mothamheading {
+    color: white;
+    font-size: 45px;
+    padding-left: 70px;
+}
+
+.mothampara {
+    color: white;
+    font-size: 15px;
+    padding-left: 80px;
+}
+
+.endboxcontainer {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(114, 117, 205);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.endboxheading1 {
+    color: white;
+    background-color: rgb(114, 117, 205);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.endboxheading2 {
+    color: white;
+    background-color: rgb(114, 117, 205);
+    text-align: center;
+}
+
+.endboxpara {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(114, 117, 205);
+    padding-bottom: 20px;
+}
+
+.endboxmatchmakingbutton {
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.endboxmatchmakingbutton:hover {
+    background-color: rgb(193, 200, 205);
+}
